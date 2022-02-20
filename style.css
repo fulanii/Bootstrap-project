@@ -1,0 +1,156 @@
+body{
+    font-family: "Open Sans"; /*  Open Sans Roboto  Lato */
+}
+
+/* Nav Bar */
+.navbar-cnt{
+    padding: 0;
+}
+.logo{
+    padding: 5px 0 5px 5px;
+}
+@media (max-width: 499px){ /* 499px and bellow */
+    .logo{
+        text-align: center;
+        margin: auto;
+    }
+
+    .search-bar{
+        margin: auto;
+    }
+    
+    .navbar{
+        position: sticky;
+    }
+}
+
+
+/* Main img bellow navbar */
+
+.nature-img{ /* max-width:100%; is used to fit/fill an img in 100% of the page */
+    width:100%;
+    height: 800px;
+}
+.imgDiv-h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.imgDiv-btn {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    
+    
+}
+
+/* Inspiration */
+#inspiration{
+    margin: 50px 100px 0 100px;
+}
+.inspiration-card{
+    margin-top: 50px;
+}
+.inspiration-card .card-body{
+    height:250px; 
+    color: white;
+}
+.card-body-1{
+    background-color: #E84545; 
+}
+.card-body-2{
+    background-color: #DCEDC2; 
+}
+.card-body-3{
+    background-color: #FF2E63; 
+}
+.card-body-4 {
+    background-color: #D6D2C4; 
+}
+
+@media (max-width: 991px) {
+    .card-4{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .card-3{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .card-2{
+        margin-top: 20px;
+    }
+}
+
+/* Discover */
+#discover{
+    margin: 50px 100px 0 100px;
+    
+}
+.discover-cards-row{
+    margin-top: 25px;
+}
+.card-img{
+    height: 100%;
+    width: 100%;
+    height: 600px;
+}
+
+/* 
+.discover-card-1{
+    height: 700px;
+    width: 600px;
+
+}
+.discover-card-2{
+    height: 700px;
+    width: 600px;
+    margin: auto;  10px 0px 0px 50px; 
+} 
+*/
+
+/* Gift card */
+
+.gift-cards{
+    margin: 50px 100px 0 100px;
+    width: auto;
+    
+}
+.gift-cards-img{
+    height: 400px;
+    width: auto;
+    
+}
+.gift-cards-h2-div{
+    width: 300px;
+    padding: 0;
+}
+.col-div-1 {
+    padding: 0;
+    width: auto;
+}
+.col-div-2{
+    padding: 0;
+}
+
+/* Carousel */
+#carousel-sec{
+    margin: 50px 100px 0 100px;
+}
+
+/* Footer */
+#footer{
+    background-color: #fff;
+}
+
+.footer-icons{
+    margin-top: 15px ;
+    margin-left: 15px ;
+    padding: 10px;
+}
