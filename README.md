@@ -1,6 +1,6 @@
 ## Bootstrap Project
 
-I recently completed this simple responsive mobile compatible website using bootstrap 5 after completing section 8 of [The Complete 2022 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/). I used different tech like Google fonts and font awsome for the icons
+I recently completed this simple responsive mobile compatible [website](https://fulanii.github.io/Bootstrap-project/) using bootstrap 5 after completing section 8 of [The Complete 2022 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/). I used different tech like Google fonts and font awsome for the icons
 
 Bootstrap used:
  <ul>
